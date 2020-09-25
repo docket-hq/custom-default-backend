@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: nginx-custom-default-backend
-        image: docketdev/custom-default-backend:6
+        image: docketdev/custom-default-backend:11
         ports:
         - containerPort: 80
         # Setting the environment variable DEBUG we can see the headers sent 
